@@ -14,11 +14,11 @@
  *= require_self
  */
 
- *{
-   margin: 0;
-   padding: 0;
-   box-sizing: border-box;
- }
+ /**{*/
+ /*  margin: 0;*/
+ /*  padding: 0;*/
+ /*  box-sizing: border-box;*/
+ /*}*/
 
 body{
   background-color: #fff;
@@ -92,10 +92,23 @@ th {
   vertical-align: inherit;
   font-weight: bold;
   text-align: -internal-center;
+  padding-bottom: 5px
 }
 
 td {
   padding-bottom: 7px;
   padding-left: 5px;
   padding-right: 5px;
+}
+
+.field{
+padding-bottom: 10px
+}
+
+label{
+  display: block;
+}
+
+div.actions {
+    margin-bottom: 10px;
 }
